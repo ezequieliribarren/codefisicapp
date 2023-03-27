@@ -1,0 +1,80 @@
+.nosotros {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+
+    .title1Nos {
+        font-size: 2.7rem;
+        font-family: 'Audiowide', cursive;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+.pNos {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 50%;
+    text-align: center;
+
+    p {
+        color: white;
+    }
+}
+
+
+.contNos {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+
+    .member {
+        margin: 1.5rem;
+    }
+
+    .polygon1 {
+        -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 16%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 16%);
+        clip-path: polygon(20% 0%, 80% 0%, 100% 16%, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0 16%);
+        width: 28rem;
+        height: 32rem;
+        background-color: gray;
+
+        img {}
+    }
+
+    .polygon2 {
+        -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 60%, 80% 100%, 20% 100%, 0 60%, 0 0);
+        clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 60%, 80% 100%, 20% 100%, 0 60%, 0 0);
+        width: 28rem;
+        height: 11rem;
+        background: linear-gradient(to bottom, #000000, #2e070c);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h4 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+            font-size: 2.3rem;
+            color: white;
+            margin-top: 0.8rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 300;
+            margin-top: 1rem;
+        }
+
+    }
+}

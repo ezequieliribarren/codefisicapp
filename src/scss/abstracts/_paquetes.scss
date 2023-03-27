@@ -1,0 +1,127 @@
+.contPaquetes {
+    h2 {
+        text-align: center;
+        color: rgba(219, 187, 107, 1)
+    }
+
+    .cardsPaquetes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: 38rem;
+        margin: 2rem;
+        height: 65rem;
+        box-shadow: 1px 1px 3px #876f32 !important;
+        background: linear-gradient(to bottom, #000000, rgb(26, 26, 26));
+        padding: 0;
+
+        .nroCard {
+            .texto-borde {
+                -webkit-text-stroke: 1px #876f32;
+                color: rgb(0, 0, 0);
+                font-family: 'Audiowide', cursive;
+                font-size: 7.6rem;
+
+            }
+        }
+
+        .titleCard {
+            h4 {
+                color: white;
+                padding: 0.5rem;
+                background-color: rgba(219, 187, 107, 0.45);
+                text-align: center;
+                font-family: Roboto;
+                font-size: 2.3rem;
+            }
+
+        }
+
+        .glow1 {
+            h4 {
+                background-color: rgba(219, 187, 107, 0.6);
+            }
+
+        }
+
+        .glow2 {
+            h4 {
+                background-color: rgba(219, 187, 107, 0.75);
+            }
+
+        }
+
+        .itemsCard {
+
+            margin-top: 4rem;
+
+            h5 {
+                text-align: center;
+                color: white;
+                font-family: Roboto;
+                font-size: 1.8rem;
+                font-weight: 300;
+            }
+
+            .notIncluded {
+                h5 {
+                    color: rgb(79, 79, 79);
+                }
+
+            }
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            margin-top: 4rem;
+
+            button {
+
+                padding: 0.2rem;
+                padding-top: 0.3rem;
+                width: 10rem;
+                font-size: 1.45rem;
+                font-family: 'Roboto';
+                font-weight: 500;
+                background-color: #C6A656;
+                color: rgb(0, 0, 0);
+                text-align: center;
+                margin-left: 0.7rem;
+                margin-right: 0.7rem;
+
+
+            }
+
+            button:hover {
+                background-color: #44110f;
+                color: white;
+            }
+
+        }
+    }
+
+    .personalizado {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+        width: 100%;
+        height: 21rem;
+        background: linear-gradient(90deg, rgba(219, 187, 107, 0) 2.06%, rgba(219, 187, 107, 0.18) 48.12%, rgba(219, 187, 107, 0) 97.14%);
+
+        h3 {
+            color: white;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            margin-top: 2.5rem;
+        }
+    }
+}

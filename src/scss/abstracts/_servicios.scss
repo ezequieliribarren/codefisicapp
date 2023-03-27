@@ -1,0 +1,214 @@
+.grid {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-areas:
+        'img1 descrip1'
+        'descrip2 img2'
+        'img3 descrip3'
+        'descrip4 img4'
+        'img5 descrip5';
+
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+
+    img {
+        width: 100%;
+    }
+}
+
+.descrip1,
+.descrip3,
+.descrip5 {
+    background: linear-gradient(to right, #44110f, rgb(0, 0, 0));
+
+    .subtitles {
+        display: flex;
+        justify-content: left;
+    }
+
+    h3 {
+        margin-top: 1rem;
+        margin-left: 1.8rem;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+        font-weight: 500;
+    }
+
+    h4 {
+        margin-left: 1.8rem;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+.descrip2,
+.descrip4 {
+    background: linear-gradient(to left, #604e21, rgb(0, 0, 0));
+
+    .subtitles {
+        display: flex;
+        justify-content: right;
+    }
+
+    h3 {
+        margin-top: 1rem;
+        margin-right: 1.8rem;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        text-align: right;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        margin-right: 1.8rem;
+        text-align: right;
+    }
+
+}
+
+.descrip1,
+.descrip2,
+.descrip3,
+.descrip4,
+.descrip5 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .subtitles {
+        h5 {
+            margin: 4rem;
+            font-size: 1.4rem;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}
+
+
+.img1 {
+    grid-area: img1;
+}
+
+.descrip1 {
+    grid-area: descrip1;
+}
+
+.img2 {
+    grid-area: img2;
+    background: linear-gradient(to right, #44110f, rgb(0, 0, 0));
+}
+
+.descrip2 {
+    grid-area: descrip2;
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.descrip3 {
+    grid-area: descrip3;
+}
+
+.img4 {
+    grid-area: img4;
+    background: linear-gradient(to right, #44110f, rgb(0, 0, 0));
+}
+
+.descrip4 {
+    grid-area: descrip4;
+}
+
+.img5 {
+    grid-area: img5;
+}
+
+.descrip5 {
+    grid-area: descrip5;
+}
+
+
+
+@media (max-width: 1199px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-areas:
+            'img1'
+            'descrip1'
+            ' img2'
+            'descrip2'
+            'img3'
+            'descrip3'
+            'img4'
+            'descrip4'
+            'img5'
+            'descrip5'
+        ;
+
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .descrip1,
+    .descrip3,
+    .descrip5,
+    .descrip2,
+    .descrip4 {
+
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+            text-align: center;
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        .subtitles {
+            margin-top: 3rem;
+
+        }
+
+        h5 {
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+    }
+
+
+    .img1,
+    .img3,
+    .img5 {
+        img {
+            width: 100%;
+        }
+
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to right, #44110f, rgb(0, 0, 0));
+    }
+
+    .img2,
+    .img4 {
+        img {
+            width: 100%;
+        }
+
+        display: flex;
+        align-items: center;
+        background: linear-gradient(to left, #604e21, rgb(0, 0, 0));
+    }
+}

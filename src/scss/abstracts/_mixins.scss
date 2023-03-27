@@ -1,0 +1,25 @@
+// Responsive Mixin
+$pc: 1200px;
+$tablet: 768px;
+$cel: 425px;
+
+@mixin responsive ($medida) {
+    @if $medida ==pc {
+        @media (max-width: $pc) {
+            @content;
+        }
+    }
+
+    @else if $medida ==tablet {
+        @media (max-width: $tablet) {
+            @content;
+        }
+    }
+
+    @else if $medida ==cel {
+        @media (max-width: $cel) {
+            @content;
+        }
+    }
+
+}
