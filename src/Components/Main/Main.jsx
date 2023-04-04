@@ -7,13 +7,14 @@ import Servicios from '../Servicios/Servicios'
 
 const Main = () => {
   return (
-    <>
+    <main>
     <Header/>
     <Servicios/>
     <Paquetes/>
     <Nosotros/>
     <Contacto/>
-    </>
+    </main>
+
   )
 }
 

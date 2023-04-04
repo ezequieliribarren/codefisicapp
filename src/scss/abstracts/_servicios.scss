@@ -1,3 +1,7 @@
+#servicios {
+    scroll-margin-top: 10em;
+}
+
 .grid {
     display: flex;
     justify-content: center;
@@ -211,4 +215,32 @@
         align-items: center;
         background: linear-gradient(to left, #604e21, rgb(0, 0, 0));
     }
+
+}
+
+.contactoServicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+    h3 {
+        text-align: center;
+        color: rgba(219, 187, 107, 1);
+        margin-bottom: 2rem;
+    }
+
+    button {
+        padding: 0.2rem;
+        padding-top: 0.3rem;
+        width: 10rem;
+        font-size: 1.45rem;
+        font-family: 'Roboto';
+        font-weight: 500;
+        background-color: #C6A656;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
 }

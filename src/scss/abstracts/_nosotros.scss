@@ -1,9 +1,13 @@
+#nosotros {
+    scroll-margin-top: 7.5em;
+}
+
 .nosotros {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 15rem;
 
     .title1Nos {
         font-size: 2.7rem;
@@ -19,8 +23,10 @@
 .pNos {
     margin-top: 2rem;
     margin-bottom: 4rem;
-    width: 50%;
+    padding: 4rem;
+    width: 60%;
     text-align: center;
+    box-shadow: 3px 3px 3px #2e070c;
 
     p {
         color: white;
@@ -46,8 +52,18 @@
         width: 28rem;
         height: 32rem;
         background-color: gray;
+        display: flex;
+        align-items: center;
 
-        img {}
+        img {
+            width: 100%;
+        }
+
+        .img3 {
+            margin-top: 5rem;
+        }
+
+
     }
 
     .polygon2 {

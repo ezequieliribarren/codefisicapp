@@ -1,8 +1,7 @@
-
 const Servicios = () => {
 
   return (
-    <> 
+    <section id="servicios"> 
     <h2>SERVICIOS</h2>
     <div className='container grid'> 
 <div className="img1">
@@ -100,7 +99,12 @@ const Servicios = () => {
   </div>
 </div>
     </div>
-    </>
+    <div className="contactoServicios">
+      <h3>A un click de potenciarte </h3>
+      <h3>🔰</h3>  
+                 <button>CONTACTO</button>
+    </div>
+    </section>
    
   )
 }

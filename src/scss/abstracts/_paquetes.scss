@@ -123,5 +123,27 @@
             color: white;
             margin-top: 2.5rem;
         }
+
+        button {
+            margin-top: 1rem;
+            padding: 0.2rem;
+            padding-top: 0.3rem;
+            width: 10rem;
+            font-size: 1.45rem;
+            font-family: 'Roboto';
+            font-weight: 500;
+            background-color: #C6A656;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            margin-left: 0.7rem;
+            margin-right: 0.7rem;
+
+
+        }
+
+        button:hover {
+            background-color: #44110f;
+            color: white;
+        }
     }
 }

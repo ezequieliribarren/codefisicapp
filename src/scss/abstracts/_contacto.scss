@@ -1,6 +1,12 @@
+#contacto {
+    scroll-margin-top: 10em;
+}
+
 .contacto {
+
     h2 {
-        color: rgba(219, 187, 107, 1)
+        color: rgba(219, 187, 107, 1);
+        margin-top: 15rem;
     }
 
     .form {
@@ -9,22 +15,35 @@
         flex-direction: column;
         align-items: center;
 
-        label {
-            color: rgba(219, 187, 107, 1);
-            font-size: 1.8rem;
-        }
 
-        input {
+        input,
+        .textArea {
             background-color: black;
             border: 1px solid #DBBB6B;
             width: 90rem;
             height: 4.8rem;
             font-size: 1.8rem;
+            margin-top: 1.5rem;
+            color: #DBBB6B;
+            text-align: center;
+        }
+
+        input::placeholder {
+            color: #DBBB6B;
+            text-align: center;
         }
 
         .textArea {
             height: 28rem;
+            margin-bottom: 1rem;
+            padding: 1.5rem;
         }
+
+        .textArea::placeholder {
+            color: #DBBB6B;
+            text-align: center;
+        }
+
 
         button {
             color: black;
@@ -43,5 +62,24 @@
 
         }
 
+        h3 {
+            margin-top: 3rem;
+        }
+
+        .whatsapp {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem;
+            margin-top: 3rem;
+
+            img {
+                margin-right: 1.5rem;
+            }
+
+            h4 {
+                color: #DBBB6B;
+            }
+        }
     }
 }

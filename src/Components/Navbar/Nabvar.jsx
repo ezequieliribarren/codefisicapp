@@ -7,7 +7,9 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
 
 
 const Nabvar = () => {
@@ -26,21 +28,19 @@ const Nabvar = () => {
 
   return (
 
-    <AppBar position="fixed" sx={{backgroundColor: "black"}}>
+    <AppBar position="fixed" sx={{backgroundColor: "rgba(22, 22, 22, 1)"}}>
     <Container maxWidth="xl">
       <Toolbar disableGutters>
-        <Typography
-          variant="h6"
+       <Link to="/"><Typography
           noWrap
-          component="a"
-          href="/"
           sx={{
             mr: 2,
             display: { xs: 'none', md: 'flex' },
           }}
         >
+          
           <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1678799666/CODEFISIC/logoCodeFisic_2_x46isb.png" alt="logo" className='imgNav' /> 
-        </Typography>
+        </Typography></Link> 
         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
           <IconButton className='icon'
             size="large"
@@ -69,17 +69,15 @@ const Nabvar = () => {
               display: { xs: 'block', md: 'none' },
             }}
           >
+            
       <Typography className='button'>NOSOTROS</Typography>
       <Typography className='button'>SERVICIOS</Typography>
       <Typography className='button'>CONTACTO</Typography>
-      <Typography className='blog'>BLOG</Typography>
+     <Link to="blog"> <Typography className='blog'>BLOG</Typography></Link>
           </Menu>
         </Box>
-        <Typography
-          variant="h5"
+        <Link to="/"><Typography
           noWrap
-          component="a"
-          href=""
           sx={{
             mr: 2,
             display: { xs: 'flex', md: 'none' },
@@ -87,13 +85,19 @@ const Nabvar = () => {
           }}
         >
         <img className='imgSmall' src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1679401407/CODEFISIC/smallLogo_cimu6f.png" alt="logo"/>
-        </Typography>
+        </Typography></Link>
 
         <Box className= "buttons" sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-        <Button className='button'>NOSOTROS</Button>
-      <Button className='button'>SERVICIOS</Button>
-      <Button className='button'>CONTACTO</Button>
-      <Button className='blog'>BLOG</Button>
+          <HashLink smooth to="/#nosotros">
+             <Typography className='button'>NOSOTROS</Typography> 
+          </HashLink>
+       <HashLink smooth to="/#servicios">
+      <Typography className='button'>SERVICIOS</Typography>
+       </HashLink>
+       <HashLink smooth to="/#contacto">
+        <Typography className='button'>CONTACTO</Typography>
+        </HashLink>
+      <Link to="blog"> <Typography className='blog'>BLOG</Typography></Link>
         </Box>
       </Toolbar>
     </Container>
@@ -101,50 +105,3 @@ const Nabvar = () => {
     );
   }
 export default Nabvar
-
-
-
-{/* <Navbar  bg="dark" expand="lg">
-<div className='arriba' >
-  <div>
-   <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1678799666/CODEFISIC/logoCodeFisic_2_x46isb.png" alt="logo" className='imgNav' />
-</div>
-
-<div className='navbar'>
-
-<Navbar.Collapse id="navbarScroll">
-  <Nav className='items'>
-    <Nav.Link className='buttons'>NOSOTROS</Nav.Link>
-    <Nav.Link className='buttons'>SERVICIOS</Nav.Link>
-    <Nav.Link className='buttons'>CONTACTO</Nav.Link>
-    <Nav.Link className='buttons'>BLOG</Nav.Link>
-  </Nav>
-</Navbar.Collapse> 
-
-</div>
-
-<Navbar.Toggle className='icon' aria-controls="navbarScroll" />
-</div>
-</Navbar> */}
-
-
-{/* <Navbar className='navbar' bg="dark" expand="lg">
-
-<div className='contenedor'>
-  <div>
-     <Navbar.Brand className='imgSmall'href="#home"><img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1679401407/CODEFISIC/smallLogo_cimu6f.png" alt="logo"/></Navbar.Brand>
-  <Navbar.Brand className='imgNav'href="#home"><img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1678799666/CODEFISIC/logoCodeFisic_2_x46isb.png" alt="logo"/></Navbar.Brand>
-  </div>
-<Navbar.Toggle className='toggle' aria-controls="basic-navbar-nav" />
- <div className='colapse'>
-      <Navbar.Collapse id="basic-navbar-nav">
-    <Nav  className="ms-auto nav">
-      <Nav.Link className='link' href="#">NOSOTROS</Nav.Link>
-      <Nav.Link className='link' href="#">SERVICIOS</Nav.Link>
-      <Nav.Link className='link' href="#">CONTACTO</Nav.Link>
-      <Nav.Link className='blog' href="#">BLOG</Nav.Link>
-    </Nav>
-  </Navbar.Collapse>      
- </div>
-</div>
-</Navbar> */}

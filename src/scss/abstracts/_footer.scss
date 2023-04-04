@@ -1,0 +1,48 @@
+footer {
+    height: 10rem;
+    margin-top: 3rem;
+    padding: 1rem;
+    background: linear-gradient(to bottom, rgb(59, 59, 59), rgb(0, 0, 0));
+
+    h5 {
+        color: white;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    li {
+        width: 6rem;
+
+        a {
+            color: white;
+            text-align: center;
+        }
+    }
+
+    .col-6 {
+        width: 25rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .imgFooter {
+        width: 10rem;
+    }
+
+    .redesFooter {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        margin-top: 1rem;
+
+        img {
+            margin-right: 1rem;
+            margin-left: 1rem;
+        }
+
+
+    }
+
+}
