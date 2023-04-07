@@ -3,22 +3,25 @@
     top: 0px;
     width: 100%;
     z-index: 1;
-    height: 7.5rem;
+    height: 7.6rem;
     background-color: rgb(41, 41, 41) !important;
+    padding: 1rem;
 
     .navbar-toggler {
-        margin-right: 1rem;
-        width: 5rem;
+        margin-right: 0.5rem;
+        width: 3rem;
         border-color: rgba(255, 255, 255, 0.85);
 
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+            width: 1rem;
         }
     }
 
     img {
-        margin-left: 6rem;
+        margin-left: 1rem;
         margin-top: 0.2rem;
+        width: 20rem;
     }
 
     .navbar-collapse {
