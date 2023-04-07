@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
   <footer className="py-3">
     <div className="row">
       <div className="col-6 col-md-2 mb-3">
-      <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1679401407/CODEFISIC/smallLogo_cimu6f.png" alt="logo" className='imgFooter' /> 
+      <img src="/images/logo.webp" alt="logo" className='imgFooter' /> 
       <div>
         <h5>Potenciamos tus proyectos</h5>
       </div>
@@ -13,31 +14,30 @@ const Footer = () => {
       <div className="col-6 col-md-2 mb-3">
         <h5>Home</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Servicios</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Nosotros</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Paquetes</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Contacto</a></li>
+          <li className="nav-item mb-2"><a href="#servicios" className="nav-link p-0">Servicios</a></li>
+          <li className="nav-item mb-2"><a href="#nosotros" className="nav-link p-0">Nosotros</a></li>
+          <li className="nav-item mb-2"><a href="#paquetes" className="nav-link p-0">Paquetes</a></li>
+          <li className="nav-item mb-2"><a href="#contacto" className="nav-link p-0">Contacto</a></li>
         </ul>
       </div>
 
       <div className="col-6 col-md-2 mb-3">
         <h5>Blog</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Todas</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Preparador Fisico</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Director Tecnico</a></li>
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-muted">Kinesiologo</a></li>
+          <li className="nav-item mb-2"><Link to="blog" className="nav-link p-0">Todas</Link></li>
+          <li className="nav-item mb-2"><Link to="blog/prepFisico" className="nav-link p-0">Preparador Fisico</Link></li>
+          <li className="nav-item mb-2"><Link to="blog/dirTecnico" className="nav-link p-0">Director Tecnico</Link></li>
+          <li className="nav-item mb-2"><Link to="blog/kinesiologo" className="nav-link p-0">Kinesiologo</Link></li>
         </ul>
       </div>
       <div className="col-6 col-md-2 mb-3">
+        <h5>Redes sociales</h5>
         <div className="redesFooter">
-      <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1680635189/whatsFooter_epnhqv.png" alt="Whatsapp" /> 
-      <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1680634370/instFooter_nl8mep.png" alt="Instagram" className="instagram" /> 
-      <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1680634370/faceFooter_vgjyv0.png" alt="Facebook" /> 
+     <a target="_blank" href="https://wa.me/+541123404219?text=Hola,%20estoy%20en%20la%20página%20de%20CODEFISIC%20y%20quiero%20 pedir%20más%20información"><img src="/images/wp.webp" alt="Whatsapp" /> </a> 
+    <a target="_blank" href="https://www.instagram.com/codefisic/"><img src="/images/ins.webp" alt="Instagram" className="instagram" /> </a> 
+     <a target="_blank" href=""> <img src="/images/fb.webp" alt="Facebook" /> </a>
       </div>
       </div>
-      
-
     </div>
   </footer>
   )

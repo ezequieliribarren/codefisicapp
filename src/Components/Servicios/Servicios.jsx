@@ -5,7 +5,7 @@ const Servicios = () => {
     <h2>SERVICIOS</h2>
     <div className='container grid'> 
 <div className="img1">
-  <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1678453696/CODEFISIC/Frame_7_ji7igh.png" alt="" />
+  <img src="/images/serv1.webp" alt="Imagen de marca" />
 </div>
 <div className="descrip1">
 <div>
@@ -14,17 +14,18 @@ const Servicios = () => {
   </div>
 <div className="subtitles">
   <div>
-<h5>✔ Logo, paleta de colores, tipografia y plantillas para redes sociales </h5>
-<h5>✔ Crea reconocimiento y diferenciación</h5>
-  </div>
-  <div>
   <h5>✔ Brinda seguridad y confianza </h5>
   <h5>✔ Fidelización de clientes</h5>
+
+  </div>
+  <div>
+  <h5>✔ Logo, paleta de colores, tipografia y plantillas para redes sociales </h5>
+<h5>✔ Crea reconocimiento y diferenciación</h5>
   </div>
   </div>
 </div>
 <div className="img2">
-<img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1678453696/CODEFISIC/Frame_8_yhb62r.png" alt="" />
+<img src="/images/serv2.webp" alt="Sitio Web" />
 </div>
 <div className="descrip2">
 <div>
@@ -43,7 +44,7 @@ const Servicios = () => {
   </div>
 </div>
 <div className="img3">
-<img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1678453696/CODEFISIC/Frame_9_ekl3rt.png" alt="" />
+<img src="/images/serv3.webp" alt="Ideas de contenido" />
 </div>
 <div className="descrip3">
 <div>
@@ -61,7 +62,7 @@ const Servicios = () => {
   </div>
 </div>
 <div className="img4">
-<img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1678453696/CODEFISIC/Frame_11_cy2ff7.png" alt="" />
+<img src="/images/serv4.webp" alt="Blog deportivo" />
 </div>
 <div className="descrip4">
 <div>
@@ -80,7 +81,7 @@ const Servicios = () => {
   </div>
 </div>
 <div className="img5">
-<img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1678453696/CODEFISIC/Frame_10_zn49c3.png" alt="" />
+<img src="/images/serv5.webp" alt="Analisis de datos" />
 </div>
 <div className="descrip5">
   <div>
@@ -101,8 +102,7 @@ const Servicios = () => {
     </div>
     <div className="contactoServicios">
       <h3>A un click de potenciarte </h3>
-      <h3>🔰</h3>  
-                 <button>CONTACTO</button>
+      <button><a target="_blank" href="https://wa.me/+541123404219?text=Hola,%20estoy%20en%20la%20página%20de%20CODEFISIC%20y%20quiero%20 pedir%20más%20información">CONTACTO</a></button>
     </div>
     </section>
    

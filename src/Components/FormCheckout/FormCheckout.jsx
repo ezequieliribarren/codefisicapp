@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import x from "./FormCheckout.module.css"
 import { addDoc, collection} from "firebase/firestore";
 import { db } from "../../firebaseConfig";
 import Button from "@mui/material/Button";
@@ -25,10 +24,9 @@ const FormCheckout = () => {
   };
 
   return (
-    <div className={x.contForm}>
-    <h2 className={x.title}>Finalizar Compra</h2>
-      <form onSubmit={handleSubmit} className={x.form}>
-        <h3>Formulario de posteo</h3>
+    <div className="contForm">
+    <h2 className="title">Formulario de posteo</h2>
+      <form onSubmit={handleSubmit} className="formCheckOut">
         <input
           type="text"
           placeholder="Titulo"
@@ -68,12 +66,7 @@ const FormCheckout = () => {
           value={postData.category}
           onChange={(e) => setUserData({ ...postData, category: e.target.value })} required
         />
-        
-        
-        
-
-
-        <Button  variant = "outlined" className={x.button} type="submit">Comprar</Button>
+        <Button  variant = "outlined" className="button" type="submit">Postear</Button>
       </form>
     </div>
   );

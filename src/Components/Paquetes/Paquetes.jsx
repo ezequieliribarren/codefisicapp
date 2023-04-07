@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 
 const Paquetes = () => {
   return (
-    <section className='contPaquetes'>
+    <section id='paquetes' className='contPaquetes'>
       <h2>¿Como elegís <strong>POTENCIARTE</strong>?</h2> 
         <div className='cardsPaquetes'>
  <Card className='card' >
@@ -30,7 +30,7 @@ const Paquetes = () => {
         </div>
 </div>
       <CardActions className='contact'>
-        <button>CONTACTO</button>
+      <button><a target="_blank" href="https://wa.me/+541123404219?text=Hola,%20estoy%20en%20la%20página%20de%20CODEFISIC%20y%20quiero%20 pedir%20más%20información">CONTACTO</a></button>
       </CardActions>
     </Card>
     <Card className='card' >
@@ -55,7 +55,7 @@ const Paquetes = () => {
         </div>
 </div>
       <CardActions className='contact'>
-        <button>CONTACTO</button>
+      <button><a target="_blank" href="https://wa.me/+541123404219?text=Hola,%20estoy%20en%20la%20página%20de%20CODEFISIC%20y%20quiero%20 pedir%20más%20información">CONTACTO</a></button>
       </CardActions>
     </Card>
     <Card className='card' >
@@ -80,14 +80,14 @@ const Paquetes = () => {
         </div>
 </div>
       <CardActions className='contact'>
-        <button>CONTACTO</button>
+      <button><a target="_blank" href="https://wa.me/+541123404219?text=Hola,%20estoy%20en%20la%20página%20de%20CODEFISIC%20y%20quiero%20 pedir%20más%20información">CONTACTO</a></button>
       </CardActions>
     </Card>
    
    <div className='personalizado'>
     <h3>¿Necesitas un servicio personalizado?</h3>
     <p>Nos adaptamos a tus necesidades <br /> ¡contanos tu proyecto y potenciemoslo!</p>
-    <button>CONTACTO</button>
+    <button><a target="_blank" href="https://wa.me/+541123404219?text=Hola,%20estoy%20en%20la%20página%20de%20CODEFISIC%20y%20quiero%20 pedir%20más%20información">CONTACTO</a></button>
    </div>
   
         </div>

@@ -5,9 +5,9 @@ import {Typography} from '@mui/material'
 const PostDetail = ({postSelected}) => {
   return (
           <Card className='postDetailCard'>
-                      <Typography>
+              
             <h2>{postSelected.title}</h2>
-          </Typography>
+     
           <div className='imgPostDetail'><img src={postSelected.img} alt="Imagen del posteo" /></div>
 
           <div className='postDetailContent'>

@@ -13,12 +13,8 @@ const Posteo = ({element}) => {
       image={element.img}
     />
     <CardContent className='content'>
-      <Typography className='title'>
-        <h3>{element.title}</h3>
-      </Typography>
-      <Typography className='detail'>
-       <p>{element.detail}</p>
-      </Typography>
+        <h3 className='title'>{element.title}</h3>
+       <p className='detail'>{element.detail}</p>
     </CardContent>
   </Card>
         </Link>

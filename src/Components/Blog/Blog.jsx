@@ -40,24 +40,23 @@ useEffect(() => {
 
 
   return (
-    <div className='contenedor'>
+    <>
         <div className='category'>
-
-        <Link to="/blog">
+          <ul>
+            <li> <Link to="/blog">
             <button>Todo</button>
-            </Link>
-
-            <Link to="/blog/prepFisico">
+            </Link></li>
+            <li>  <Link to="/blog/prepFisico">
             <button>Preparador Fisico</button>
-            </Link>
-            
+            </Link></li>
+            <li>   
             <Link to="/blog/dirTecnico">
             <button>Director Tecnico</button>
-            </Link>
-
-            <Link to="/blog/kinesiologo">
+            </Link></li>
+            <li> <Link to="/blog/kinesiologo">
             <button>Kinesiologo</button>
-            </Link>
+            </Link></li>
+          </ul>
         </div>
         
         <div className='posts'>
@@ -67,8 +66,7 @@ useEffect(() => {
             } )
         }
         </div>
-   
-    </div>
+    </>
 
 
   )

@@ -1,6 +1,12 @@
 #servicios {
     scroll-margin-top: 10em;
+
+    h2 {
+        margin-top: 10rem;
+        margin-bottom: 2.5rem;
+    }
 }
+
 
 .grid {
     display: flex;
@@ -21,6 +27,8 @@
 .img3,
 .img4,
 .img5 {
+    width: 598px;
+    height: 289px;
 
     img {
         width: 100%;
@@ -31,6 +39,9 @@
 .descrip3,
 .descrip5 {
     background: linear-gradient(to right, #44110f, rgb(0, 0, 0));
+    width: 598px;
+    height: 289px;
+
 
     .subtitles {
         display: flex;
@@ -55,6 +66,8 @@
 .descrip2,
 .descrip4 {
     background: linear-gradient(to left, #604e21, rgb(0, 0, 0));
+    width: 598px;
+    height: 289px;
 
     .subtitles {
         display: flex;
@@ -90,9 +103,10 @@
 
     .subtitles {
         h5 {
-            margin: 4rem;
+            margin: 3rem;
             font-size: 1.4rem;
             font-family: 'Roboto', sans-serif;
+            text-align: center;
         }
     }
 }
@@ -241,6 +255,38 @@
         background-color: #C6A656;
         color: rgb(0, 0, 0);
         text-align: center;
+
+        a {
+            text-decoration: none !important;
+            color: black;
+        }
+
+        a:hover {
+            color: rgb(0, 0, 0);
+        }
+
     }
 
+}
+
+
+@media (max-width: 620px) {
+
+    .descrip1,
+    .descrip3,
+    .descrip5,
+    .descrip2,
+    .descrip4 {
+        width: auto;
+        height: auto;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5 {
+        width: auto;
+        height: auto;
+    }
 }

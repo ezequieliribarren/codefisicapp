@@ -17,43 +17,21 @@ const Nosotros = () => {
           <div className='contNos'>
             <div className='member'>         
                 <div className='polygon1'>
-                <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1680182021/CODEFISIC/20220517_204208_kcppae.jpg" alt="" />
+                <img src="/images/nos1.webp" width="280px" height="320px" alt="Equipo Codefisic" />
             </div>
             <div className='polygon2'>
-                <h4>Ezequiel Iribarren</h4>
-                <p>Desarrollador web <br /> Lic. en alto rendimiento deportivo</p>
+                <h3>Ezequiel Iribarren</h3>
+                <p>Lic. en alto rendimiento deportivo<br />Desarrollador web</p>
                   </div>
             </div>
 
             <div className='member'>         
                 <div className='polygon1'>
-                <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1680182019/CODEFISIC/subir1_1_zsvaxz.jpg" alt="" />
+                <img src="/images/nos2.webp" width="280px" height="320px" alt="Equipo Codefisic" />
             </div>
               <div className='polygon2'>
-                <h4>Magali Biondi</h4>
+                <h3>Magali Biondi</h3>
                 <p>Diseñadora UX/UI</p>
-                  </div>
-   
-
-            </div>
-            <div className='member'>         
-                <div className='polygon1'>
-                <img className='img3' src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1680183862/CODEFISIC/equipo3_wztrss.png" alt="" />
-            </div>
-            <div className='polygon2'>
-                <h4>Jorge</h4>
-                <p>Desarrollador web</p>
-                  </div>
-   
-
-            </div>
-            <div className='member'>         
-                <div className='polygon1'>
-                <img src="https://res.cloudinary.com/dkkrcphjh/image/upload/v1678453696/CODEFISIC/Frame_7_ji7igh.png" alt="" />
-            </div>
-            <div className='polygon2'>
-                <h4>Agustina Abarca</h4>
-                <p>Comunity Manager</p>
                   </div>
    
 
