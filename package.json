@@ -26,6 +26,7 @@
     "sass": "^1.59.2",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://codefisic.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
