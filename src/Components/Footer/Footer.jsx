@@ -9,6 +9,9 @@ const Footer = () => {
       <div>
         <h5>Potenciamos tus proyectos</h5>
       </div>
+      <div className='copyCode'>
+            <p>&copy; [2023] Codefisc. Todos los derechos reservados.</p>
+            </div> 
       </div>
 
       <div className="col-6 col-md-2 mb-3">
@@ -37,6 +40,10 @@ const Footer = () => {
     <a target="_blank" href="https://www.instagram.com/codefisic/"><img src="/images/ins.webp" alt="Instagram" className="instagram" /> </a> 
      <a target="_blank" href=""> <img src="/images/fb.webp" alt="Facebook" /> </a>
       </div>
+      <div className="copyCode">
+         <a target='_blank' href="www.freepik.com"> <p>Algunas imágenes utilizadas en este sitio web son de Freepik y están <br /> sujetas a sus términos de uso y atribución</p></a>
+      </div>
+     
       </div>
     </div>
   </footer>
