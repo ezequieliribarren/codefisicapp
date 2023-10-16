@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Proyecto Codefisic App
+![image](https://github.com/ezequieliribarren/codefisicapp/assets/105462718/d6218c84-6ffd-45aa-8d57-3f8d3fe0a1cd)
+- [Enlace al sitio web](https://codefisic.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto representa un sitio web para Codefisic, una agencia deportiva enfocada en el alto rendimiento. La aplicación está diseñada para potenciar digitalmente a profesionales del deporte, proporcionando información detallada sobre sus servicios y una forma eficaz de contacto.
 
-## Available Scripts
+## Contenido
 
-In the project directory, you can run:
+- [Descripción](#descripción)
+- [Tecnologías Utilizadas](#tecnologías-utilizadas)
+- [Contacto](#contacto)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Descripción
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Codefisic es un sitio web diseñado para profesionales del deporte y atletas de alto rendimiento. Incluye:
 
-### `npm test`
+- **Descripción de Servicios:** Información detallada sobre los servicios ofrecidos por Codefisic.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Carousel de Llamadas a la Acción:** Presenta mensajes clave y llamadas a la acción para involucrar a los visitantes del sitio.
 
-### `npm run build`
+- **Paquetes de servicios:** Muestra paquetes accesibles de los servicios brindados por la agencia, de una forma agrupada y organizada con un diseño llamativo.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Formulario de Contacto:** Proporciona una forma fácil y efectiva para que los usuarios se pongan en contacto con el equipo de Codefisic.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tecnologías Utilizadas
 
-### `npm run eject`
+- **React:** Utilizado para la creación de componentes dinámicos y la estructura de la interfaz de usuario.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React Router:** Implementación de enrutamiento para la navegación fluida dentro de la aplicación de una sola página.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Sass y Bootstrap:** Preprocesador y framework CSS para una estilización organizada y diseño responsivo.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contacto
 
-## Learn More
+Para cualquier pregunta o colaboración, no dudes en ponerte en contacto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Correo Electrónico:** [info@ezequieliribarren.com](mailto:info@ezequieliribarren.com)
+- **Sitio Web:** [Portfolio](https://ezequieliribarren.com/)
